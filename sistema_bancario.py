@@ -1,9 +1,10 @@
-print ("SISTEMA BANCÁRIO DO BANCO LARANJA")
+print ("SISTEMA BANCÁRIO DO BANCO LARANJA".center(60, " "))
+print ("")
 saldo_conta = 500
 selecionar_funcao = None
 
 while selecionar_funcao !=0:
-    selecionar_funcao = int(input("[1] Sacar\n[2] Depositar\n[3] Consultar Saldo\n[0] Sair\n Digite a opção desejada: "))
+    selecionar_funcao = int(input("[1] Sacar\n[2] Depositar\n[3] Consultar Saldo\n[0] Sair\n \n            Digite a opção desejada: "))
 
     if selecionar_funcao == 1:
         valor_saque = int(input("Digite o valor do saque: "))
